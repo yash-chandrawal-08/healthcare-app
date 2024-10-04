@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStarted"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    android:background="@color/grey">
+
+    <ImageView
+        android:id="@+id/obimage1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/reminder" />
+
+    <TextView
+        android:id="@+id/obtext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Best medicine reminder"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+   <Button
+       android:layout_width="250dp"
+       android:layout_height="60dp"
+       android:paddingHorizontal="70dp"
+       android:id="@+id/startbutton"
+       android:text="GET STARTED"
+       android:textColor="@color/white"
+       android:textSize="14sp"
+       android:layout_marginTop="150dp"
+       android:layout_gravity="center"
+       android:backgroundTint="@color/blue2"
+       app:cornerRadius="15dp"/>
+
+
+</LinearLayout>
